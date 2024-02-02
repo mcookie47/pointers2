@@ -19,13 +19,12 @@ int main()
 	int* p1, * p2;
 
 	thirdvalue = 10, fourthvalue = 20;
-
-	cout << "Third value is " << thirdvalue << '\n';
-	cout << "Fourth value is " << fourthvalue << '\n';
-
 	p1 = &thirdvalue;
 	p2 = &fourthvalue;
 
+	cout << "Third value is " << thirdvalue << '\n';
+	cout << "Fourth value is " << fourthvalue << '\n';
+	cout << "&&" << '\n';
 	cout << "Pointer 1 is " << *p1 << '\n';
 	cout << "Pointer 2 is " << *p2 << '\n';
 
