@@ -11,7 +11,23 @@ int main()
 	mypointer = &secondvalue;
 	*mypointer = 20;
 	cout << "firstvalue is " << firstvalue << '\n';
-	cout << "secondvalue is " << secondvalue << '\n';
+	cout << "secondvalue is " << secondvalue << '\n\n';
+	cout << "***********************************" << '\n\n';
+	//new pointer
+
+	int thirdvalue, fourthvalue;
+	int* p1, * p2;
+
+	thirdvalue = 10, fourthvalue = 20;
+
+	cout << "Third value is " << thirdvalue << '\n';
+	cout << "Fourth value is " << fourthvalue << '\n';
+
+	p1 = &thirdvalue;
+	p2 = &fourthvalue;
+
+	cout << "Pointer 1 is " << *p1 << '\n';
+	cout << "Pointer 2 is " << *p2 << '\n';
 
 	system("pause");
 	return 0;
